@@ -55,7 +55,7 @@ metadata:
   name: hello-web
   namespace: hello
   annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
     traefik.ingress.kubernetes.io/router.tls: "true"
     # If using cert-manager later:
     # cert-manager.io/cluster-issuer: acme-issuer
