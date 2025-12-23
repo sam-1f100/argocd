@@ -6,7 +6,7 @@ metadata:
 spec:
   secretName: hello-web-tls
   issuerRef:
-    name: letsencrypt-staging   # change to letsencrypt-prod after it works
+    name: letsencrypt-prod   # change to letsencrypt-prod after it works
     kind: ClusterIssuer
   dnsNames:
     - test.1f100.dev
